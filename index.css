@@ -10,3 +10,8 @@ a {
     justify-items: center;
     align-items: center;
 }
+
+img{
+    height: 130px;
+    width: 130px;
+}
