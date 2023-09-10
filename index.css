@@ -1,17 +1,24 @@
-
-a {
-    width: 60px;
-    height: 25px;
-    border-radius: 6px;
-    border: 0;
-    background: #060d0b;
-    color: aliceblue;
+body {
+    margin: 20px;
+  }
+  
+  [data-testid="main"] {
     display: flex;
-    justify-items: center;
+    flex-direction: column;
     align-items: center;
-}
-
-img{
-    height: 130px;
-    width: 130px;
-}
+    justify-items: center;
+    font-size: 16px;
+  }
+  
+  [data-testid="slackUserName"] {
+    font-size: 30px;
+  }
+  
+  [data-testid="slackDisplayImage"] {
+    border-radius: 6px;
+  }
+  
+  [data-testid="githubURL"] {
+    cursor: pointer;
+  }
+  
